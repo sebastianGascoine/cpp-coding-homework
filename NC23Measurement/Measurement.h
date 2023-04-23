@@ -11,6 +11,7 @@ class Measurement {
     public:
         Measurement();
         Measurement(unsigned int feet, unsigned int inches);
+        Measurement(const Measurement &t);
         unsigned int getFeet() const;
         unsigned int getInches() const;
         bool setFeet(unsigned int feet);
