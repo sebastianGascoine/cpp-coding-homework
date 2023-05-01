@@ -9,9 +9,9 @@ Time::Time(){
 }
 
 Time::Time(unsigned int hour, unsigned int minute, Meridiem meridiem) {
-   /* this->hour = hour;
+    this->hour = hour;
     this->minute = minute;
-    this->meridiem = meridiem; */
+    this->meridiem = meridiem; 
 }
 
 unsigned int Time::getHour() const {

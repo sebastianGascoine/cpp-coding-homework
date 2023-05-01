@@ -7,21 +7,9 @@ using namespace std;
 
 
 int main(int argc, char *argv[]){
-  int size = 10;
-  int initialVal = -1;
-  
-int array[size];
-
-for(int i = 0;i <size ; i++){
-
-array[i] = initialVal;
-
-}
-  for(int i = 0;i <size ; i++){
-
-    cout << array[i] << endl;
-
-  }
+  int numbers[10] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+for (int i = 1; i <= 5; i++)
+cout << numbers[++i];
 
  }
 
